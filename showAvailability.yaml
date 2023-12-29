@@ -1,0 +1,112 @@
+- View:
+    style:
+      width: 100%
+      height: 10%
+      backgroundColor: rgb(228, 160, 26)
+    children:
+      - Text:
+          style:
+            color:  
+            fontSize: 30
+            text-align: center
+          index: 0
+- View:
+    style:
+      width: 50%
+      height: 10
+      backgroundColor: white
+      marginTop: 10
+      marginLeft: 10
+      alignSelf: center
+      alignItems: center
+    children:
+      - TextInput:
+          index: 18
+          len: 20
+          style:
+            width: 100%
+            height: 30
+            fontSize: 20
+            backgroundColor: white
+            borderColor: gray
+            borderWidth: 1
+            marginBottom: 10
+            padding: 10
+          extra_props:
+            keyboardType: numeric
+            placeholder: 'Room'
+            placeholderTextColor: grey
+      - TextInput:
+          index: 38
+          len: 20
+          style:
+            width: 100%
+            height: 30
+            fontSize: 20
+            backgroundColor: white
+            borderColor: gray
+            borderWidth: 1
+            marginBottom: 10
+            padding: 10
+          extra_props:
+            keyboardType: numeric
+            placeholder: 'Month'
+            placeholderTextColor: grey
+      - TextInput:
+          index: 58
+          len: 20
+          style:
+            width: 100%
+            height: 30
+            fontSize: 20
+            backgroundColor: white
+            borderColor: gray
+            borderWidth: 1
+            marginBottom: 10
+            padding: 10
+          extra_props:
+            keyboardType: numeric
+            placeholder: 'Day'
+            placeholderTextColor: grey
+      - Button:
+                id: showAvailability
+                style:
+                  width: 150
+                  height: 50
+                  borderRadius: 25
+                  backgroundColor: rgb(228, 160, 26)
+                  borderColor: rgb(228, 160, 26)
+                  borderWidth: 2
+                  marginBottom: 10
+                  justifyContent: center
+                  alignItems: center
+                  cursor: pointer
+                  on_touch:
+                    backgroundColor: rgb(255, 0, 0)
+                children:
+                  - Text:
+                      style:
+                        fontSize: 30
+                        color: black
+                      index: 78
+      - Button:
+          id: return
+          style:
+            width: 150
+            height: 50
+            borderRadius: 25
+            backgroundColor: rgb(228, 160, 26)
+            borderColor: rgb(228, 160, 26)
+            borderWidth: 2
+            marginBottom: 10
+            justifyContent: center
+            alignItems: center
+            cursor: pointer
+            on_touch:
+              backgroundColor: rgb(255, 0, 0)
+          children:
+            - Text:
+                style:
+                  fontSize: 30
+                  color: black
+                index: 85

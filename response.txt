@@ -1,0 +1,128 @@
+
+# screen 1 (after a blank line)
+    Welcome!
+    Press return to start.
+
+# screen 2
+Please choose an option:
+    1) Find Room
+    2) Show Availability
+    3) Create Reservation
+    4) Show My Reservations
+    5) Edit A Reservation
+    choice: 
+# screen 3
+    -- Finding a room --
+    Please type the month you want to reserve for
+    Month: 
+# screen 4
+    -- Finding a room --
+    Please type the day you want to reserve for
+    Day: 
+# screen 5
+    -- Finding a room --
+    Please type the time you want to reserve for
+    Start Time: 
+# screen 6
+    -- Finding a room --
+    Please type the end time you want to reserve till
+    End Time: 
+# screen 7
+    -- Finding a room --
+    Please type the number of people you want to reserve for
+    Number of people: 
+# screen 8
+    -- Finding a room --
+    Here are the available rooms for your search:
+
+# screen 9
+    -- Show Availability --
+    Type the number of the room!
+    Room Number: 
+# screen 10
+    -- Show Availability --
+    Type the month you are looking for!
+    Month: 
+# screen 11
+    -- Show Availability --
+    Type the day you are looking for!
+    Day: 
+# screen 12
+    -- Show Availability --
+    Here are the avaialble hours for your room:
+
+# screen 13
+    -- Reserve a room --
+    Type the number of the room!
+    Room Number: 
+# screen 14
+    -- Reserve a room --
+    Type the day!
+    Day: 
+# screen 15
+    -- Reserve a room --
+    Type the month!
+    Month: 
+# screen 16
+    -- Reserve a room --
+    Type the start time!
+    Start: 
+# screen 17
+    -- Reserve a room --
+    Type the end time!
+    End Time: 
+# screen 18
+    -- Reserve a room --
+    Press return to reserve!
+
+# screen 19
+    -- Reserve a room --
+    Reseravtion created Successfully!!!
+
+# screen 20
+    -- Reserve a room --
+    Error has been occured!
+    Room not available for mentioned time!!!
+
+#screen 21
+    -- My Reservations --
+
+# screen 22
+    Press return to go back to Main Menu!
+
+# screen 23
+    -- Edit Reservation --
+    Please enter the ID of the reservation you want to edit!
+    Reservation ID: 
+# screen 24
+    -- Edit Reseravtion --
+    Please enter the new room number!
+    New Room Number: RML 
+# screen 25
+    -- Edit Reseravtion --
+    Please enter the new month!
+    New Month: 
+# screen 26
+    -- Edit Reseravtion --
+    Please enter the new day!
+    New Day: 
+# screen 27
+    -- Edit Reseravtion --
+    Please enter the new start time!
+    New Start Time: 
+# screen 28
+    -- Edit Reseravtion --
+    Please enter the new end time!
+    New End Time: 
+# screen 29
+    -- Edit Reseravtion --
+    Press return to update!
+
+# screen 30
+    -- Edit Reservation --
+    You have Successfully updated the reservation!
+
+# screen 31
+    -- Edit Reservation --
+    Wrong Reservation ID or the room is not avaialble at the given time!
+    

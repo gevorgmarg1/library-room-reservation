@@ -1,0 +1,55 @@
+- View:
+    style:
+      width: 100%
+      height: 10%
+      backgroundColor: rgb(228, 160, 26)
+      flexDirection: column
+      alignItems: center
+      justifyContent: center
+    children:
+      - Text:
+          style:
+            color:  
+            fontSize: 30
+            text-align: center
+          index: {header}
+- View:
+    style:
+      width: 65%
+      height: 10
+      backgroundColor: white
+      marginTop: 10
+      marginLeft: 10
+      alignSelf: center
+      alignItems: center
+
+    children:
+      - Button:
+                id: return
+                style:
+                  width: 150
+                  height: 50
+                  borderRadius: 25
+                  backgroundColor: rgb(228, 160, 26)
+                  borderColor: rgb(228, 160, 26)
+                  borderWidth: 2
+                  marginBottom: 10
+                  justifyContent: center
+                  alignItems: center
+                  cursor: pointer
+                  on_touch:
+                    backgroundColor: rgb(255, 0, 0)
+                children:
+                  - Text:
+                      style:
+                        fontSize: 30
+                        color: black
+                      index: {button}
+      - Text:
+          style:
+            color:  
+            fontSize: 30
+            text-align: center
+          index: {text}
+      
+      
